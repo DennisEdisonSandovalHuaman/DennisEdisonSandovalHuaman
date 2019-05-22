@@ -1,0 +1,78 @@
+
+body{
+    background-color: azure;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+article{
+    background-color: antiquewhite;
+    padding: 1%;
+    margin: 10px;
+    width: 32%; 
+    border-radius: 2%;
+    text-align: center;
+}
+p{
+    text-align: justify;
+    padding: 15px;
+}
+img{
+    height: 35%;
+    width: 95%;
+    border-radius: 2%;
+}
+h1{
+    text-transform: uppercase;
+    color: darkslategrey;
+}
+h2{
+    text-transform: uppercase;
+    color: red;
+}
+h4{
+    color: darkgreen;
+}
+section{
+    display: flex;
+    align-content: center;
+}
+a:hover{
+    color: coral;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 40px;
+}
+nav{
+    opacity: 0.85;
+    background-color: dodgerblue;
+    padding: 15px;
+}
+ul{
+    display: flex;
+}
+
+
+
+/* Pagina de Inicio */
+.fotoPerfil{
+    width: 25%;
+    border-radius: 2%;
+}
+.pagInicio{
+    text-align: center;
+}
+
+/* Servicios */
+.servicios{
+    background-color: lavender;
+}
+.contacto{
+    
+}
+aside a{
+    display: flex;
+    color: black;
+}
