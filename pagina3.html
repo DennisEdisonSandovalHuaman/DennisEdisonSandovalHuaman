@@ -1,131 +1,228 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+    <link rel="stylesheet" href="Estilos2.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">     
+    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="icons/style.css"> 
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="Estilos.css">
+
     <title> Página 3: Información de lugares turísticos </title>
 </head>
 <body>
-    <h1>Página 3: Información de lugares turísticos</h1>
     <header>
-        <nav>
-            <ul>
-                <dl>
-                    <a href="/index.html"> Web Page </a>
-                </dl>
-                <dl>
-                    <a href="/pagina2.html"> Información de Contacto </a>
-                </dl>
-                <dl>
-                    <a href="/pagina3.html"> Sitios Turísticos - Cajamarca </a>
-                </dl>
-            </ul>
-        </nav>   
+        <nav class="red darken-3 align-center">
+            <div class="nav-wrapper">
+              <a class="brand-logo">Web Page</a>
+              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+              <ul class="right hide-on-med-and-down">
+                <li><a href="index.html">Web Page</a></li>
+                <li><a href="pagina2.html">Información de Contacto</a></li>
+                <li class="active"><a href="pagina3.html">Sitios Turísticos - Cajamarca</a></li>
+                <li><a href="practica.html">Práctica</a></li>
+              </ul>
+            </div>
+    </nav>
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="index.html"><i class="material-icons right">trending_flat</i>Web Page</a></li>
+                <li><a href="pagina2.html"><i class="material-icons right">trending_flat</i>Información de Contacto</a></li>
+                <li><a href="pagina3.html"><i class="material-icons right">trending_flat</i>Sitios Turísticos</a></li>
+                <li><a href="practica.html"><i class="material-icons right">trending_flat</i>Práctica</a></li>
+    </ul>
     </header>
-    <div>
+    <div class="container">
+    <h1>Sitios Turísticos</span></h1>
+
             <!-- Cajamarca -->
-            <h2>Cajamarca</h2>
-            <section>
-                    <article>
-                      <img src="\imagenes\Cajamarca\img01.png"  alt="..." width="25%">
-                      <div>
-                        <h4 >Cuarto del Rescate en Cajamarca</h4>
-                        <p>
-                        <cite>
-                          El Cuarto del Rescate es una edificación incaica ubicada en la ciudad de Cajamarca, Perú. Sus dimensiones son 11,80 m de largo, 7,30 m de ancho y 3,1 m de alto. <br>
-                          Este recinto es considerado por los historiadores peruanos el lugar donde se mantuvo prisionero al Sapa Inca Atahualpa, que pasó los últimos días de su vida recluido en él,​ concretamente entre el 16 de noviembre de 1532 y el 26 de julio de 1533,​ tras ser capturado por los conquistadores españoles. </cite>
-                        </p>
-                      
+            
+            <div class="row">
+                <h2>Historia de Cajamarca: </h2>
+                <div class="row black">
+                <div class="col m6">
+                    <iframe width="98%" height="400" src="https://www.youtube.com/embed/-lG_qg2BpBs" frameborder="0" allowfullscreen></iframe>
+                </div>   
+                <div class="carousel col m6 ">
+                    <a class="carousel-item" href="#"><img width="400" height="250" src="imagenes/Cajamarca/img01.png"></a>
+                    <a class="carousel-item" href="#"><img width="400" height="250" src="imagenes/Cajamarca/img02.png"></a>
+                    <a class="carousel-item" href="#"><img width="400" height="250" src="imagenes/Cajamarca/img03.png"></a>
+                    <a class="carousel-item" href="#"><img width="400" height="250" src="imagenes/BanosDelInca/img01.png"></a>
+                    <a class="carousel-item" href="#"><img width="400" height="250" src="imagenes/BanosDelInca/img02.png"></a>
+                    <a class="carousel-item" href="#"><img width="400" height="250" src="imagenes/BanosDelInca/img03.png"></a>
+                  </div>
+                </div>
+
+                <h2>Cajamarca</h2>
+                  <div class="col s12 m4">
+                      <div class="col s12">
+                        <div class="card">
+                          <div class="card-image">
+                            <img src="imagenes/Cajamarca/img01.png">
+                            <span class="card-title">Cuarto del Rescate en Cajamarca</span>
+                          </div>
+                          <div class="card-content">
+                            <p><cite>
+                                El Cuarto del Rescate es una edificación incaica ubicada en la ciudad de Cajamarca, Perú. Sus dimensiones son 11,80 m de largo, 7,30 m de ancho y 3,1 m de alto. <br>
+                                Este recinto es considerado por los historiadores peruanos el lugar donde se mantuvo prisionero al Sapa Inca Atahualpa, que pasó los últimos días de su vida recluido en él,​ concretamente entre el 16 de noviembre de 1532 y el 26 de julio de 1533,​ tras ser capturado por los conquistadores españoles. </cite></p>
+                          </div>
+                          <div class="card-action">
+                            <a href="#">Ver más ...</a>
+                          </div>
+                        </div>
                       </div>
-                    </article>
-                    <article>
-                      <img src="\imagenes\Cajamarca\img02.png"  alt="..." width="25%">
-                      <div>
-                        <h4 >Inicio de la Conquista - Cajamarca</h4>
-                        <p>
-                        <cite>
-                            Los españoles comenzaron la conquista del Imperio Inca en 1532. El 15 de noviembre de ese año, Francisco Pizarro llegó a la ciudad de Cajamarca, donde se había citado con el Inca Atahualpa. <br>
-                            Una vez en la ciudad, se escondieron en los principales edificios incas de la plaza y esperaron ansiosos. <br>
-                            Horas después vieron la fenomenal entrada de Atahualpa, con un desfile de 30.000 hombres, quienes estaban tan confiados que fueron desarmados. Al entrar a la plaza el único español que le salió al 
-                            encuentro fue el fraile Vicente de Valverde, quien a través del intérprete Felipillo (otras fuentes dicen que fue Maritinillo o ambos), le efectuó el Requerimiento donde se le ordenó aceptar 
-                            el cristianismo como religión verdadera y someterse a la autoridad del rey Carlos I de España y al papa Clemente VII.
-                        </cite>
-                        </p>
-                      
+                    </div>
+                  
+                    <div class="col s12 m4">
+                        <div class="col s12">
+                          <div class="card">
+                            <div class="card-image">
+                              <img src="imagenes/Cajamarca/img02.png">
+                              <span class="card-title trunk">Inicio de la Conquista - Cajamarca</span>
+                            </div>
+                            <div class="card-content">
+                              <p><cite>
+                                  Los españoles comenzaron la conquista del Imperio Inca en 1532. El 15 de noviembre de ese año, Francisco Pizarro llegó a la ciudad de Cajamarca, donde se había citado con el Inca Atahualpa.
+                                  Una vez en la ciudad, se escondieron en los principales edificios incas de la plaza y esperaron ansiosos.
+                                  Horas después vieron la fenomenal entrada de Atahualpa, con un desfile de 30.000 hombres, quienes estaban tan confiados que fueron desarmados.</cite></p>
+                            </div>
+                            <div class="card-action">
+                              <a href="#">Ver más ...</a>
+                            </div>
+                          </div>
+                        </div>
                       </div>
-                    </article>
-                    <article>
-                      <img src="\imagenes\Cajamarca\img03.png"  alt="..." width="25%">
-                      <div>
-                        <h4 >La captura de Atahualpa</h4>
-                        <p>
-                        <cite>
-                            Como resultado Atahualpa fue apresado en un palacio de Cajamarca. En prisión, ofreció a cambio de su liberación llenar dos veces la habitación en la que estaba recluido, de plata y una de oro 
-                            "hasta donde alcanzara su mano"; los españoles aceptaron y de inmediato se mandó la orden a todo el imperio inca de que enviasen la mayor cantidad posible de oro y plata hacia Cajamarca. 
-                            Después de cumplir su parte los españoles lo sentenciaron a muerte por idolatría, fratricidio, poligamia, incesto y lo acusaron de ocultar un tesoro. <br>
-                            Se le concedieron las dos últimas opciones: ser bautizado como cristiano y luego ahorcado o ser quemado vivo. Al escoger la primera opción fue bautizado con el nombre cristiano de Francisco. Se cree que Francisco Pizarro lloró su muerte.​ (Pedro Pizarro narra en su crónica: "yo vi llorar al Marqués").
-                            
-                            Fue ejecutado el 26 de julio de 1533. La noticia de su muerte originó una gran anarquía, muchas etnias incas se sublevaron e intentaron recuperar su independencia.
-                        </cite>
-                        </p>
-                      
-                      </div>
-                    </article>
-            </section>
-            <!-- Baños del Inca -->
+
+                      <div class="col s12 m4">
+                          <div class="col s12">
+                            <div class="card">
+                              <div class="card-image">
+                                <img src="imagenes/Cajamarca/img03.png">
+                                <span class="card-title trunk">La captura de Atahualpa</span>
+                              </div>
+                              <div class="card-content">
+                                <p><cite>
+                                    Como resultado Atahualpa fue apresado en un palacio de Cajamarca. En prisión, ofreció a cambio de su liberación llenar dos veces la habitación en la que estaba recluido, de plata y una de oro 
+                                    "hasta donde alcanzara su mano"; los españoles aceptaron y de inmediato se mandó la orden a todo el imperio inca de que enviasen la mayor cantidad posible de oro y plata hacia Cajamarca. 
+                                    Después de cumplir su parte los españoles lo sentenciaron a muerte por idolatría, fratricidio, poligamia, incesto y lo acusaron de ocultar un tesoro.
+                                 </cite></p>
+                              </div>
+                              <div class="card-action">
+                                <a href="#">Ver más ...</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+            </div>
             <h2>Baños del Inca</h2>
-            <section>
-                    <article>
-                      <img src="\imagenes\BanosDelInca\img01.png"  alt="..." width="25%">
-                      <div>
-                        <h4> Distrito de Baños del Inca</h4>
-                        <p><cite>
-                            El distrito de Baños del Inca es uno de los doce que conforman la provincia de Cajamarca ubicada en el departamento de Cajamarca en el Norte del Perú.​<br>
-                            El distrito es conocido por sus aguas termales. Se encuentra a 6 km de la ciudad de Cajamarca.<br>
-                            Desde el punto de vista jerárquico de la Iglesia católica forma parte de la Diócesis de Cajamarca la cual a su vez, pertenece a la Arquidiócesis de Trujillo.
-                        </cite></p>
+            <div class="row">
+                <div class="col s12 m4">
+                  <div class="col s12">
+                    <div class="card">
+                      <div class="card-image">
+                        <img class="responsive-img" src="imagenes/BanosDelInca/img01.png">
+                        <span class="card-title">Aguas termales - Baños del Inca</span>
                       </div>
-                    </article>
-                    <article>
-                      <img src="\imagenes\BanosDelInca\img02.png"  alt="..." width="25%">
-                      <div>
-                        <h4 >Aguas Termales en Baños del Inca</h4>
-                        <p>
-                        <cite>
-                            El balneario de aguas termales está ubicado a 6 kilómetros de Cajamarca con temperaturas que llegan hasta los 79ºC. Por el confort de su establecimientos 
+                      <div class="card-content">
+                        <p><cite>
+                          El distrito de Baños del Inca es uno de los doce que conforman la provincia de Cajamarca ubicada en el departamento de Cajamarca en el Norte del Perú.​<br>
+                          El distrito es conocido por sus aguas termales. Se encuentra a 6 km de la ciudad de Cajamarca.<br>
+                          Desde el punto de vista jerárquico de la Iglesia católica forma parte de la Diócesis de Cajamarca la cual a su vez, pertenece a la Arquidiócesis de Trujillo.</cite></p>
+                      </div>
+                      <div class="card-action">
+                        <a href="#">Ver más ...</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col s12 m4">
+                  <div class="col s12">
+                    <div class="card">
+                      <div class="card-image">
+                        <img class="responsive-img" src="imagenes/BanosDelInca/img02.png">
+                        <span class="card-title">Aguas Termales en Baños del Inca</span>
+                      </div>
+                      <div class="card-content">
+                        <p><cite>
+                          El balneario de aguas termales está ubicado a 6 kilómetros de Cajamarca con temperaturas que llegan hasta los 79ºC. Por el confort de su establecimientos 
                             y propiedad curativas de sus fuentes son <b>considerados como los más importantes del continente</b>, tanto por la bondad de sus aguas, como por el 
                             trasfondo histórico que representan, pues allí se aseaba y relajaba tanto <a href="https://es.wikipedia.org/wiki/Pachac%C3%BAtec" target="_blank" rel="noopener noreferrer">Pachacútec</a> 
-                            a su paso conquistador, como Túpac Yupanqui y sus hijos Huáscar y Atahualpa; siendo este último el anfitrión de <a href="https://es.wikipedia.org/wiki/Francisco_Pizarro" target="_blank" rel="noopener noreferrer">Francisco Pizarro</a>  cuando fue conquistada Cajamarca en el año 1532. <br>
-                            Presenta también una gran laguna artificial donde se aprecia la crianza y pesca de tilapias que han sido adaptadas y criadas para el consumo humano. 
-                        </cite>  
-                        </p>
-                      
-                        </div>
-                    </article>
-                    <article>
-                      <img src="\imagenes\BanosDelInca\img03.png"  alt="..." width="25%">
-                      <div>
-                        <h4 >Pileta del Inca, un sitio admirable.</h4>
-                        <p>
-                          <cite>
-                              El baño del inca es un atractivo  turístico, un gran monumento ubicado en la entrada a la ciudad de Calvas, junto a la quebrada o balneario  Palancana. <br>
-                              Se lo denomina baña del Inca porque se afirma que  era el sitio preferido del Inca Huayna Capac en donde el realizaba su descanso y se refrescaba en este balneario natural al momento que realizaba su  recorrido por el camino Real de Quito al cuzco. <br>
-                              Es un lugar muy visitado y muy comentado por propios y extraños que hacen del lugar un privilegio y admirable  recibimiento de calvas. <br>
-    
-                          </cite>
-                        </p>
+                            a su paso conquistador, como Túpac Yupanqui y sus hijos Huáscar y Atahualpa.</cite></p>
                       </div>
-                    </article>
-            </section>
+                      <div class="card-action">
+                        <a href="#">Ver más ...</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col s12 m4">
+                  <div class="col s12">
+                    <div class="card">
+                      <div class="card-image">
+                        <img class="responsive-img" src="imagenes/BanosDelInca/img03.png">
+                        <span class="card-title">Pileta del Inca, un sitio admirable.</span>
+                      </div>
+                      <div class="card-content">
+                        <p><cite>
+                          El baño del inca es un atractivo  turístico, un gran monumento ubicado en la entrada a la ciudad de Calvas, junto a la quebrada o balneario  Palancana. <br>
+                          Se lo denomina baña del Inca porque se afirma que  era el sitio preferido del Inca Huayna Capac en donde el realizaba su descanso y se refrescaba en este balneario natural al momento que realizaba su  recorrido por el camino Real de Quito al cuzco. <br>
+                          </cite></p>
+                      </div>
+                      <div class="card-action">
+                        <a href="#">Ver más ...</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
 
     </div>
-    <footer>
-        <address><b>Autor:</b> Sandoval Huaman, Dennis Edison (UNC) 
-          <br/>
-              <b>Última modificación:</b> 08 de mayo de 2019
-        </address>
-    </footer>
+    <!-- Barra de navegacion -->
+    <div class="fixed-action-btn">
+        <a class="btn-floating btn-large red">
+          <i class="large material-icons">share</i>
+        </a>
+        <ul>
+          <li><a class="btn-floating blue"><span class="icon-facebook"></a></li>
+          <li><a class="btn-floating yellow"><span class="icon-instagram"></a></li>
+          <li><a class="btn-floating red"><span class="icon-youtube"></a></li>
+          <li><a class="btn-floating green"><span class="icon-whatsapp"></a></li>
+        </ul>
+      </div>
+    <!-- FIN -->
+<footer class="page-footer red darken-3">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text">Redes Sociales</h5>
+              <p class="grey-text text-lighten-4"> AUTOR: <br>
+                  Puedes buscarnos en nuestras diferentes redes sociales, los links a continuación:</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <h5 class="white-text">Links</h5>
+              <ul>
+                <li><a class="grey-text text-lighten-3" href="#!" target="_blanck"><span class="icon-facebook">Facebook</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!" target="_blanck"><i class="material-icons">android</i>Instagram</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!" target="_blanck"><i class="material-icons">android</i>YouTube</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">Dennis Sandoval © 2019 Copyright Text
+          <a class="grey-text text-lighten-4 right" href="#!">Más Links</a>
+          </div>
+        </div>
+      </footer>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <script>
+          document.addEventListener('DOMContentLoaded', function(){
+              M.AutoInit();
+          });
+      </script>
 </body>
 </html>

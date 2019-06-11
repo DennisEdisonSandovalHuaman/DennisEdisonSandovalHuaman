@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'icon2';
+  src:  url('fonts/icon2.eot?2z6lsm');
+  src:  url('fonts/icon2.eot?2z6lsm#iefix') format('embedded-opentype'),
+    url('fonts/icon2.ttf?2z6lsm') format('truetype'),
+    url('fonts/icon2.woff?2z6lsm') format('woff'),
+    url('fonts/icon2.svg?2z6lsm#icon2') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icon2' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-google2:before {
+  content: "\ea89";
+}
+.icon-spotify:before {
+  content: "\ea94";
+}
+.icon-youtube:before {
+  content: "\ea9d";
+}
+.icon-twitch:before {
+  content: "\ea9f";
+}
+.icon-steam2:before {
+  content: "\eaad";
+}
+.icon-dropbox:before {
+  content: "\eaae";
+}
+.icon-tumblr2:before {
+  content: "\eaba";
+}
+.icon-skype:before {
+  content: "\eac5";
+}
+.icon-chrome:before {
+  content: "\ead9";
+}
+.icon-edge:before {
+  content: "\eadc";
+}
+.icon-safari:before {
+  content: "\eadd";
+}
+.icon-opera:before {
+  content: "\eade";
+}
+.icon-html-five:before {
+  content: "\eae4";
+}

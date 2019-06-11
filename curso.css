@@ -1,0 +1,33 @@
+body{
+    text-align: left;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+p{
+    text-align: justify;
+}
+.content{
+    text-align: justify;
+    display: flex;
+}
+.datos{
+    width: 25%;
+    padding-right: 4%;
+}
+.description{
+    width: 75%;
+}
+.description ul {
+    
+    background-color: beige;
+    display: flex;
+}
+.description ul li{
+    width: 33%;
+    background-color: aqua;
+    padding-right: 2%;
+    list-style-type: none;
+}
+.title{
+    text-align: center;
+}

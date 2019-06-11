@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'icon3';
+  src:  url('fonts/icon3.eot?5m3e00');
+  src:  url('fonts/icon3.eot?5m3e00#iefix') format('embedded-opentype'),
+    url('fonts/icon3.ttf?5m3e00') format('truetype'),
+    url('fonts/icon3.woff?5m3e00') format('woff'),
+    url('fonts/icon3.svg?5m3e00#icon3') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icon3' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-circle-right:before {
+  content: "\ea42";
+}
+.icon-google-plus3:before {
+  content: "\ea8d";
+}
+.icon-tumblr2:before {
+  content: "\eaba";
+}
+.icon-chrome:before {
+  content: "\ead9";
+}
+.icon-firefox:before {
+  content: "\eada";
+}
+.icon-edge:before {
+  content: "\eadc";
+}
